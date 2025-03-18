@@ -22,9 +22,9 @@ const Home = () => {
                   Dowiedz się więcej
                 </button>
               </Link>
-              <Link to='/Contact'>
+              <Link to='/JobOffers'>
                 <button className='bg-transparent border-2 border-[#63d4ff] text-[#63d4ff] py-3 px-6 rounded-full text-l font-semibold hover:bg-[#63d4ff] hover:text-white transition duration-300 w-fit '>
-                  Skontaktuj się z nami
+                  Aktualne oferty pracy
                 </button>
               </Link>
             </div>

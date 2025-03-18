@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'; // Importujemy Tailwind CSS
+import './index.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter } from 'react-router-dom'; // HashRouter pozostaje, ponieważ używasz react-router
-
+import { HashRouter } from 'react-router-dom'; 
+import ScrollToTop from './components/ScrollToTop';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
+    <ScrollToTop />
     <App />
   </HashRouter>
 );

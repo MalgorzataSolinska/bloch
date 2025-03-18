@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Team from './screens/Team';
 import Contact from './screens/Contact'
 import JobOffers from './screens/JobOffers';
+import ForCompanies from './screens/ForCompanies';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Team' element={<Team />} />
             <Route path='/Contact' element={<Contact />} /> 
             <Route path='/JobOffers' element={<JobOffers />} />
+            <Route path='/ForCompanies' element={<ForCompanies/> }/>
           </Routes>
         </main>
 

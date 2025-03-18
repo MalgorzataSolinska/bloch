@@ -5,7 +5,7 @@ const JobOffers = () => {
     <div className='pt-20'>
       {/* Sekcja Hero */}
       <section className='lg-w-fit h-fit p-10 sm:p-6 md:p-12 mb-10'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 items-center'>
           {/* Tekst po lewej */}
           <div className='text-center md:text-left'>
             <h1 className='text-5xl md:text-4xl lg:text-6xl font-bold text-[#2f4183] mb-6 leading-tight'>

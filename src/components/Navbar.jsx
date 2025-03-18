@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to='/Team' className='hover:underline'>
           ZESPÓŁ
         </Link>
-        <Link to='/for-companies' className='hover:underline'>
+        <Link to='/ForCompanies' className='hover:underline'>
           DLA FIRM
         </Link>
         <Link to='/JobOffers' className='hover:underline'>
@@ -40,7 +40,7 @@ const Navbar = () => {
             ZESPÓŁ
           </Link>
           <Link
-            to='/for-companies'
+            to='/ForCompanies'
             className='block w-full text-center py-3 hover:bg-gray-100'
             onClick={() => setIsOpen(false)}
           >
