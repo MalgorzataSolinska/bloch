@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.css'; // Importujemy Tailwind CSS
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from 'react-router-dom'; // HashRouter pozostaje, ponieważ używasz react-router
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <HashRouter>
     <App />
-  </React.StrictMode>
+  </HashRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Jeśli chcesz mierzyć wydajność swojej aplikacji, możesz przekazać funkcję do logowania wyników (np. reportWebVitals(console.log))
+// lub wysłać do punktu analitycznego. Dowiedz się więcej: https://bit.ly/CRA-vitals
 reportWebVitals();

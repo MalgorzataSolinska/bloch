@@ -1,0 +1,79 @@
+import { Link } from 'react-router-dom';
+
+const Team = () => {
+  return (
+    <div className='pt-20'>
+      <section className='  lg-w-fit h-fit p-10 sm:p-6 md:p-12 '>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10  '>
+          <div className='text-center md:text-left '>
+            <h1 className='text-5xl lg:text-6xl font-bold text-[#3465CC] mb-6 leading-tight md:mr-8 text-center sm:text-left'>
+              Nasz zespół
+            </h1>
+            <p className='md:text-md lg:text-xl text-gray-700 mb-6 text-justify'>
+              Poświęcamy czas na słuchanie i zrozumienie potrzeb oraz aspiracji ludzi, aby móc je spełnić. Współpraca i
+              integracja są podstawą naszego podejścia – wspólnie tworzymy rozwiązania, uczymy się od siebie nawzajem i
+              dzielimy się wiedzą oraz doświadczeniem.
+            </p>
+          </div>
+
+          {/* Zdjęcie po prawej */}
+          <div className='flex justify-center'>
+            <img src='/images/zespol.png' alt='Zespół BLOCH' className='rounded-lg shadow-xl max-w-full h-auto' />
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-white p-10 sm:p-6 md:p-12  text-justify'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 '>
+          <div>
+            <h2 className='text-3xl font-semibold text-[#3465CC] mb-4'>Jakob</h2>
+            <p className='text-l lg:text-xl text-gray-700 mb-4'>
+              Ma 25 lat doświadczenia jako przedsiębiorca w Danii, zatrudniający polskich pracowników.
+            </p>
+            <p className='text-l lg:text-xl text-gray-700 mb-4'>
+              Jest magistrem ekonomii Uniwersytetu w Kopenhadze i posiada doświadczenie w finansach oraz administracji
+              publicznej.
+            </p>
+          </div>
+          <div className='flex justify-center'>
+            <img src='/images/jakob.png' alt='Jakob Bloch' className='m-5 rounded-lg shadow-xl max-w-xs max-h-xs' />
+          </div>
+        </div>
+
+        {/* Informacje o Ianie */}
+      </section>
+      <section className=' p-10 sm:p-6 md:p-12 text-justify'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 '>
+          <div>
+            <h2 className='text-3xl font-semibold text-[#3465CC] mb-4'>Iana</h2>
+            <p className='text-l lg:text-xl text-gray-700 mb-4'>
+              Ma blisko 15-letnie doświadczenie w pracy w startupach i międzynarodowych firmach, zarządzając zespołami
+              HR w branżach takich jak budownictwo, rozwój gruntów i rolnictwo.
+            </p>
+            <p className='text-l lg:text-xl text-gray-700 mb-6'>
+              Dzięki szerokiej wiedzy w zakresie obsługi klienta i zarządzania reklamacjami zapewni jasną komunikację i
+              przeprowadzi Cię przez proces rekrutacyjny.
+            </p>
+          </div>
+          <div className='flex justify-center'>
+            <img src='/images/Iana.png' alt='Iana Iakovenko' className='rounded-lg shadow-xl max-w-full h-auto' />
+          </div>
+        </div>
+      </section>
+      {/* Sekcja Kontaktowa na dole */}
+      <section className='bg-[#f4f4f4] p-10 text-center'>
+        <h2 className='text-3xl font-semibold text-[#3465CC] mb-6'>Masz pytania? Skontaktuj się z nami!</h2>
+        <p className='text-lg text-gray-700 mb-6'>Jesteśmy tutaj, aby Ci pomóc. Napisz do nas!</p>
+
+        {/* Przycisk kontaktowy */}
+        <Link to='/Contact'>
+          <button className='bg-[#3465CC] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#4bb9e5] transition duration-300'>
+            Skontaktuj się z nami
+          </button>
+        </Link>
+      </section>
+    </div>
+  );
+};
+
+export default Team;
