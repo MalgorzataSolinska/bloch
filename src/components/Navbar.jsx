@@ -47,7 +47,7 @@ const Navbar = () => {
             DLA FIRM
           </Link>
           <Link
-            to='/work-in-denmark'
+            to='/JobOffers'
             className='block w-full text-center py-3 hover:bg-gray-100'
             onClick={() => setIsOpen(false)}
           >
