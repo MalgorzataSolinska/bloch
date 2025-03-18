@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Team = () => {
   return (
     <div className='pt-20'>
-      <section className='  lg-w-fit h-fit p-10 sm:p-6 md:p-12 '>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10  '>
+      <section className=' lg-w-fit h-fit p-10 sm:p-6 md:p-12 '>
+        <div className='grid grid-cols-1  gap-10  '>
           <div className='text-center md:text-left '>
-            <h1 className='text-5xl lg:text-6xl font-bold text-[#3465CC] mb-6 leading-tight md:mr-8 text-center sm:text-left'>
+            <h1 className='text-5xl md:text-4xl lg:text-6xl  font-bold text-[#3465CC] mb-6 leading-tight md:mr-8 text-center md:text-left '>
               Nasz zespół
             </h1>
             <p className='md:text-md lg:text-xl text-gray-700 mb-6 text-justify'>
@@ -18,7 +19,7 @@ const Team = () => {
 
           {/* Zdjęcie po prawej */}
           <div className='flex justify-center'>
-            <img src='/images/zespol.png' alt='Zespół BLOCH' className='rounded-lg shadow-xl max-w-full h-auto' />
+            <img src='/images/team.png' alt='team BLOCH' className='rounded-lg shadow-xl max-w-full h-auto' />
           </div>
         </div>
       </section>
@@ -34,7 +35,9 @@ const Team = () => {
               Jest magistrem ekonomii Uniwersytetu w Kopenhadze i posiada doświadczenie w finansach oraz administracji
               publicznej.
             </p>
+          
           </div>
+           
           <div className='flex justify-center'>
             <img src='/images/jakob.png' alt='Jakob Bloch' className='m-5 rounded-lg shadow-xl max-w-xs max-h-xs' />
           </div>

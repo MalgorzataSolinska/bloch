@@ -32,7 +32,11 @@ const Home = () => {
 
           {/* Zdjęcie po prawej */}
           <div className='flex justify-center'>
-            <img src='/images/hero.png' alt='Zespół BLOCH' className='rounded-lg shadow-xl max-w-full h-auto hidden sm:block' />
+            <img
+              src='/images/hero.png'
+              alt='Zespół BLOCH'
+              className='rounded-lg shadow-xl max-w-full h-auto hidden sm:block'
+            />
           </div>
         </div>
       </section>
@@ -61,11 +65,13 @@ const Home = () => {
             </div>
 
             {/* Przycisk na dole */}
-            <Link to='/Team'>
-              <button className='bg-transparent border-2 border-[#63d4ff] text-[#63d4ff] py-3 px-4 rounded-full text-l font-semibold hover:bg-[#63d4ff] hover:text-white transition duration-300 w-fit mx-auto'>
-                Poznaj nasz zespół
-              </button>
-            </Link>
+            <div className='flex justify-center'>
+              <Link to='/Team'>
+                <button className='bg-transparent border-2 border-[#63d4ff] text-[#63d4ff] py-3 px-4 rounded-full text-l font-semibold hover:bg-[#63d4ff] hover:text-white transition duration-300 w-fit '>
+                  Poznaj nasz zespół
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

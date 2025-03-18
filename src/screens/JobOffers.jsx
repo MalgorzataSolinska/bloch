@@ -49,7 +49,7 @@ const JobOffers = () => {
           <div className='flex justify-center gap-3'>
             <Link to=''>
               <button className='bg-transparent border-2 border-[#2f4183] text-[#2f4183] py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#2f4183] hover:text-white transition duration-300'>
-                Sprawdź aktualne oferty pracy
+                Sprawdź oferty pracy
               </button>
             </Link>
           </div>
