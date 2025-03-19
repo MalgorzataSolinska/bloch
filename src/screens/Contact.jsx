@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Tekst po lewej */}
           <div className="text-center md:text-left">
-            <h1 className="text-4xl font-bold text-[#6A8CD3] mb-6 leading-tight md:mr-8">
+            <h1 className="text-4xl lg:text-5xl font-bold text-[#6A8CD3] mb-6 leading-tight md:mr-8">
               Skontaktuj się z nami
             </h1>
             <p className="text-lg lg:text-xl text-gray-700 mb-4">

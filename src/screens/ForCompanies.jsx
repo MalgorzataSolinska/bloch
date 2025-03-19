@@ -7,8 +7,8 @@ const ForCompanies = () => {
       <section className='lg-w-fit h-fit p-10 sm:p-6 md:p-12  bg-[#f4f4f4]'>
         <div className='grid grid-cols-1 gap-10 items-center'>
           <div className='text-center md:text-left'>
-            <h1 className='text-5xl md:text-4xl lg:text-6xl font-bold text-[#8cc4df] mb-6 leading-tight'>Dla firm </h1>
-            <p className='md:text-md lg:text-xl text-gray-700 mb-6 text-justify'>
+            <h1 className='text-4xl lg:text-5xl font-bold text-[#8cc4df] mb-6 leading-tight'>Dla firm </h1>
+            <p className='md:text-lg lg:text-xl text-gray-700 mb-6 text-justify'>
               Szukasz wykwalifikowanych pracowników do swojej firmy? <br /> Współpracuj z nami i zyskaj dostęp do
               najlepszych specjalistów!
             </p>
@@ -17,12 +17,12 @@ const ForCompanies = () => {
       </section>
 
       {/* Sekcja z wymaganiami dla firm */}
-      <section className='py-16 px-6 md:px-12 lg:px-20 text-justify'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
+      <section className='py-16 px-6 md:px-12 lg:px-20 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center '>
           {/* Tekst */}
           <div>
             <h2 className='text-3xl font-semibold text-[#8cc4df] mb-6'>Szukamy firm, które:</h2>
-            <ul className='text-lg text-gray-700 space-y-4 list-disc list-inside'>
+            <ul className='text-lg text-gray-700 space-y-4 list-disc list-outside'>
               <li> Oferują wynagrodzenie adekwatne do kwalifikacji pracowników</li>
               <li> Stawiają na rozwój i szkolenia swoich pracowników</li>
               <li> Dbają o bezpieczeństwo w miejscu pracy</li>

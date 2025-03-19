@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaPhone, FaEnvelope } from 'react-icons/fa';
+
 
 const Team = () => {
   return (
@@ -7,7 +7,7 @@ const Team = () => {
       <section className=' lg-w-fit h-fit p-10 sm:p-6 md:p-12 '>
         <div className='grid grid-cols-1  gap-10  '>
           <div className='text-center md:text-left '>
-            <h1 className='text-5xl md:text-4xl lg:text-6xl  font-bold text-[#3465CC] mb-6 leading-tight md:mr-8 text-center md:text-left '>
+            <h1 className='text-4xl  lg:text-5xl  font-bold text-[#3465CC] mb-6 leading-tight md:mr-8 text-center md:text-left '>
               Nasz zespół
             </h1>
             <p className='md:text-md lg:text-xl text-gray-700 mb-6 text-justify'>
@@ -65,7 +65,7 @@ const Team = () => {
       </section>
       {/* Sekcja Kontaktowa na dole */}
       <section className='bg-[#f4f4f4] p-10 text-center'>
-        <h2 className='text-3xl font-semibold text-[#3465CC] mb-6'>Masz pytania? Skontaktuj się z nami!</h2>
+        <h2 className='text-3xl font-semibold text-[#3465CC] mb-6'>Masz pytania? </h2>
         <p className='text-lg text-gray-700 mb-6'>Jesteśmy tutaj, aby Ci pomóc. Napisz do nas!</p>
 
         {/* Przycisk kontaktowy */}

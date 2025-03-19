@@ -8,22 +8,22 @@ const Home = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 items-center'>
           {/* Tekst po lewej */}
           <div className='text-center md:text-left'>
-            <h1 className='text-4xl lg:text-6xl font-bold text-[#63d4ff] mb-6 leading-tight md:mr-8'>
+            <h1 className='text-4xl lg:text-5xl font-bold text-[#315F81] mb-6 leading-tight md:mr-8'>
               Twoja Przyszłość Zaczyna się Tutaj
             </h1>
-            <p className='md:text-md lg:text-xl  text-[#63d4ff] mb-6'>
+            <p className='md:text-md lg:text-xl  text-[#315F81] mb-6'>
               Szukamy specjalistów do pracy w Danii <br /> Dołącz do zespołu i rozwijaj swoją karierę
             </p>
 
             {/* Dodajemy przyciski */}
             <div className='flex justify-center md:justify-start flex-col md:flex-col lg:flex-row gap-3'>
               <Link to='/Team'>
-                <button className='bg-[#63d4ff] text-white py-3 px-6 rounded-full text-l font-semibold hover:bg-[#4bb9e5] transition duration-300 w-fit'>
+                <button className='bg-[#315F81] text-white py-3 px-6 rounded-full text-l font-semibold hover:bg-[#5986A3] transition duration-300 w-fit'>
                   Dowiedz się więcej
                 </button>
               </Link>
               <Link to='/JobOffers'>
-                <button className='bg-transparent border-2 border-[#63d4ff] text-[#63d4ff] py-3 px-6 rounded-full text-l font-semibold hover:bg-[#63d4ff] hover:text-white transition duration-300 w-fit '>
+                <button className='bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-6 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '>
                   Aktualne oferty pracy
                 </button>
               </Link>
@@ -67,7 +67,7 @@ const Home = () => {
             {/* Przycisk na dole */}
             <div className='flex justify-center'>
               <Link to='/Team'>
-                <button className='bg-transparent border-2 border-[#63d4ff] text-[#63d4ff] py-3 px-4 rounded-full text-l font-semibold hover:bg-[#63d4ff] hover:text-white transition duration-300 w-fit '>
+                <button className='bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-4 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '>
                   Poznaj nasz zespół
                 </button>
               </Link>
@@ -78,12 +78,12 @@ const Home = () => {
 
       {/* Sekcja Kontaktowa na dole */}
       <section className='bg-[#f4f4f4] p-10 text-center'>
-        <h2 className='text-3xl font-semibold text-[#63d4ff] mb-6'>Masz pytania? Skontaktuj się z nami!</h2>
+        <h2 className='text-3xl font-semibold text-[#315F81] mb-6'>Masz pytania? </h2>
         <p className='text-lg text-gray-700 mb-6'>Jesteśmy tutaj, aby Ci pomóc. Napisz do nas!</p>
 
         {/* Przycisk kontaktowy */}
         <Link to='/Contact'>
-          <button className='bg-[#63d4ff] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#4bb9e5] transition duration-300'>
+          <button className='bg-[#315F81] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#5986A3] transition duration-300'>
             Skontaktuj się z nami
           </button>
         </Link>

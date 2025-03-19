@@ -8,10 +8,10 @@ const JobOffers = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 items-center'>
           {/* Tekst po lewej */}
           <div className='text-center md:text-left'>
-            <h1 className='text-5xl md:text-4xl lg:text-6xl font-bold text-[#2f4183] mb-6 leading-tight'>
+            <h1 className='text-4xl lg:text-5xl font-bold text-[#2f4183] mb-6 leading-tight'>
               Praca w Danii – Dołącz do Nas!
             </h1>
-            <p className='md:text-md lg:text-xl text-[#2f4183] mb-6'>
+            <p className='md:text-lg lg:text-xl text-[#2f4183] mb-6'>
               Szukamy wykwalifikowanych specjalistów do pracy w Danii. Oferujemy legalne zatrudnienie, atrakcyjne
               warunki oraz wsparcie w procesie rekrutacji.
             </p>
