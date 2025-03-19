@@ -29,19 +29,27 @@ const Contact = () => {
                 <div className='flex items-center justify-center md:justify-start'>
                   <FaPhone className='mr-2 text-[#6A8CD3]' />
                   <a href='tel:+48502765640' className='hover:underline text-gray-700'>
-                    502 765 640
+                    +48 502 765 640
                   </a>
                 </div>
               </div>
 
               <div>
                 <h2 className='text-xl font-semibold text-gray-800 mb-2'>Kontakt w języku angielskim – Jakob</h2>
-                <div className='flex items-center justify-center md:justify-start'>
+                <div className='flex items-center justify-center md:justify-start mb-2'>
                   <FaEnvelope className='mr-2 text-[#6A8CD3]' />
                   <a href='mailto:jakob@bloch.com.pl' className='hover:underline text-gray-700'>
                     jakob@bloch.com.pl
                   </a>
-                </div>
+                  
+                  </div>
+                  <div className='flex items-center justify-center md:justify-start'>
+                    <FaPhone className='mr-2 text-[#6A8CD3]' />
+                    <a href='tel:+4528719175' className='text-gray-700 hover:underline'>
+                      +45 28 71 91 75
+                    </a>
+                  </div>
+              
               </div>
             </div>
 

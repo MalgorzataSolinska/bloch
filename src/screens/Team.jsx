@@ -64,7 +64,7 @@ const Team = () => {
               </p>
             </div>
             <div className='flex justify-center'>
-              <img src='/images/Iana.png' alt='Iana Iakovenko' className='rounded-lg shadow-xl max-w-full h-auto' />
+              <img src='/images/Iana.png' alt='Iana Iakovenko' className='rounded-lg shadow-xl max-w-xs max-h-xs' />
             </div>
           </div>
         </section>
