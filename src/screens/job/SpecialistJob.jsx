@@ -56,13 +56,9 @@ const SpecialistJob = () => {
               Przejdź na Aplikuj.pl
             </a>
           </div>
-          <div className='flex justify-center'>
-              <img
-                src='/images/siteWorkers.png'
-                alt='SiteWorkers'
-                className=' max-w-full h-auto shadow-md rounded-md'
-              />
-            </div>
+          <div className='w-full'>
+            <img src='/images/siteWorkers.png' alt='SiteWorkers' className=' max-w-full h-auto shadow-md rounded-md' />
+          </div>
         </div>
       </div>
     </>
