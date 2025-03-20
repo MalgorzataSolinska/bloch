@@ -48,7 +48,7 @@ const SpecialistJob = () => {
             <li>Możliwość awansu dla zaangażowanych pracowników</li>
             <li>Atrakcyjne wynagrodzenie zależne od kwalifikacji</li>
           </ul>
-          <div className='mt-10 text-center'>
+          <div className='mt-10 text-center mb-12'>
             <a
               href='/contact'
               className='bg-[#2f4183] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#4bb9e5] transition'
@@ -56,6 +56,13 @@ const SpecialistJob = () => {
               Przejdź na Aplikuj.pl
             </a>
           </div>
+          <div className='flex justify-center'>
+              <img
+                src='/images/siteWorkers.png'
+                alt='SiteWorkers'
+                className=' max-w-full h-auto shadow-md rounded-md'
+              />
+            </div>
         </div>
       </div>
     </>

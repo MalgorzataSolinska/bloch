@@ -27,7 +27,7 @@ const Team = () => {
             </div>
 
             <div className='flex justify-center'>
-              <img src='/images/team.png' alt='team BLOCH' className='rounded-lg shadow-xl max-w-full h-auto' />
+              <img src='/images/team.png' alt='team BLOCH' className='rounded-lg shadow-xl w-auto md:max-w-screen-sm' />
             </div>
           </div>
         </section>

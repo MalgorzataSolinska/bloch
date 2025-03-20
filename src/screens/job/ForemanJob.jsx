@@ -48,7 +48,7 @@ const ForemanJob = () => {
             <li>Atrakcyjne wynagrodzenie zależne od kwalifikacji</li>
           </ul>
 
-          <div className='mt-10 text-center'>
+          <div className='mt-10 text-center mb-12'>
             <a
               href='/contact'
               className='bg-[#2f4183] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#4bb9e5] transition'
@@ -56,7 +56,15 @@ const ForemanJob = () => {
               Przejdź na Aplikuj.pl
             </a>
           </div>
+          
         </div>
+        <div className='w-full'>
+              <img
+                src='/images/siteWorkers.png'
+                alt='SiteWorkers'
+                className=' max-w-full h-auto shadow-md rounded-md'
+              />
+            </div>
       </div>
     </>
   );
