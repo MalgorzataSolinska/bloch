@@ -50,21 +50,18 @@ const ForemanJob = () => {
 
           <div className='mt-10 text-center mb-12'>
             <a
-              href='/contact'
+              href='https://www.aplikuj.pl/oferta/2798858/brygadzisci-i-specjalisci-do-obrobki-powierzchniowej-stali-i-betonu-umowa-o-prace-bloch-spolka-z-ograniczona-odpowiedzialnoscia'
+              target='_blank'
+              rel='noopener noreferrer'
               className='bg-[#2f4183] text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#4bb9e5] transition'
             >
               Przejdź na Aplikuj.pl
             </a>
           </div>
-          
         </div>
         <div className='w-full'>
-              <img
-                src='/images/siteWorkers.png'
-                alt='SiteWorkers'
-                className=' max-w-full h-auto shadow-md rounded-md'
-              />
-            </div>
+          <img src='/images/siteWorkers.png' alt='SiteWorkers' className=' max-w-full h-auto shadow-md rounded-md' />
+        </div>
       </div>
     </>
   );
