@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='bg-white p-10 sm:p-6 md:p-12 mb-20 text-justify'>
+        <section className='bg-white p-10 sm:p-6 md:p-12 mb-8 text-justify'>
           <div className='flex flex-col justify-between h-full'>
             {/* Tekst */}
             <div>
@@ -80,7 +80,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='bg-[#f4f4f4] p-10 text-center'>
+        <section className=' p-10 text-center'>
           <h2 className='text-3xl font-semibold text-[#315F81] mb-6'>Masz pytania? </h2>
           <p className='text-lg text-gray-700 mb-6'>Jesteśmy tutaj, aby Ci pomóc. Napisz do nas!</p>
 
