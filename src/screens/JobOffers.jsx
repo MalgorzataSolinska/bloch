@@ -3,8 +3,6 @@ import { Helmet } from 'react-helmet';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-
-
 const jobOffers = [
   {
     title: 'Specjalista do obróbki powierzchniowej stali i betonu',
@@ -20,8 +18,6 @@ const jobOffers = [
   },
 ];
 
-
-
 const JobOffers = () => {
   const location = useLocation();
   useEffect(() => {
@@ -30,11 +26,11 @@ const JobOffers = () => {
     if (section) {
       // Uzyskanie pozycji sekcji względem całej strony
       const sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
-  
+
       // Przewijanie do sekcji z offsetem 10px
       window.scrollTo({
         top: sectionTop - 30, // Odjęcie 10px od pozycji, aby unikać przysłonięcia
-        behavior: "smooth",
+        behavior: 'smooth',
       });
     }
   }, [location]);
@@ -76,9 +72,10 @@ const JobOffers = () => {
         </section>
 
         {/* Kafelki ofert pracy */}
-        <section id="oferty-pracy" className='bg-white p-10 sm:p-6 md:p-12 mb-10 text-center'>
+        <section id='oferty-pracy' className='bg-white p-10 sm:p-6 md:p-12 mb-10 text-center justify-center'>
           <h2 className='text-3xl font-semibold text-[#2f4183] mb-6'>Aktualne oferty pracy</h2>
-          <div className='grid grid-cols-1  gap-6'>
+          <div className='flex justify-center'>
+          <div className='grid grid-cols-1  gap-6 max-w-screen-md  '>
             {jobOffers.map((job, index) => (
               <Link
                 key={index}
@@ -89,6 +86,7 @@ const JobOffers = () => {
                 <p className='text-gray-700'>{job.description}</p>
               </Link>
             ))}
+          </div>
           </div>
         </section>
 
