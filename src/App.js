@@ -5,7 +5,8 @@ import Team from './screens/Team';
 import Contact from './screens/Contact'
 import JobOffers from './screens/JobOffers';
 import ForCompanies from './screens/ForCompanies';
-
+import SpecialistJob from './screens/job/SpecialistJob';
+import ForemanJob from './screens/job/ForemanJob'
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
             <Route path='/Contact' element={<Contact />} /> 
             <Route path='/JobOffers' element={<JobOffers />} />
             <Route path='/ForCompanies' element={<ForCompanies/> }/>
+            <Route path='/job/specialist' element={<SpecialistJob/>}/>
+            <Route path='/job/foreman' element={<ForemanJob/>}/>
           </Routes>
         </main>
 

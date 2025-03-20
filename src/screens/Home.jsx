@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Helmet>
@@ -29,11 +31,14 @@ const Home = () => {
                     Dowiedz się więcej
                   </button>
                 </Link>
-                <Link to='/JobOffers'>
-                  <button className='bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-6 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '>
+                <div className='justify-center md:justify-start' >
+                  <button
+                    onClick={() => navigate('/joboffers', { state: { scrollTo: 'oferty-pracy' } })}
+                    className=' bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-6 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '
+                  >
                     Aktualne oferty pracy
                   </button>
-                </Link>
+                </div>
               </div>
             </div>
 
@@ -48,35 +53,29 @@ const Home = () => {
         </section>
 
         <section className='bg-white p-10 sm:p-6 md:p-12 mb-20 text-justify'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 items-center'>
+          <div className='flex flex-col justify-between h-full'>
+            {/* Tekst */}
             <div>
-              <img src='/images/zespol.png' alt='Zespół BLOCH' className='rounded-lg shadow-lg' />
+              <p className='text-l lg:text-xl text-gray-700 mb-4'>
+                <strong>BLOCH</strong> to polska agencja rekrutacyjna specjalizująca się w pozyskiwaniu
+                wykwalifikowanych fachowców dla firm w Danii.
+              </p>
+              <p className='text-l lg:text-xl text-gray-700 mb-4'>
+                Wspieramy osoby poszukujące pracy w zdobywaniu wymarzonych stanowisk i rozwijaniu kompetencji
+                zawodowych.
+              </p>
+              <p className='text-l lg:text-xl text-gray-700 mb-6'>
+                Oferujemy kompleksowe rozwiązania dla firm – od rekrutacji, przez szkolenia i doradztwo, aż po coaching
+                i outplacement.
+              </p>
             </div>
 
-            <div className='flex flex-col justify-between h-full'>
-              {/* Tekst */}
-              <div>
-                <p className='text-l lg:text-xl text-gray-700 mb-4'>
-                  <strong>BLOCH</strong> to polska agencja rekrutacyjna specjalizująca się w pozyskiwaniu
-                  wykwalifikowanych fachowców dla firm w Danii.
-                </p>
-                <p className='text-l lg:text-xl text-gray-700 mb-4'>
-                  Wspieramy osoby poszukujące pracy w zdobywaniu wymarzonych stanowisk i rozwijaniu kompetencji
-                  zawodowych.
-                </p>
-                <p className='text-l lg:text-xl text-gray-700 mb-6'>
-                  Oferujemy kompleksowe rozwiązania dla firm – od rekrutacji, przez szkolenia i doradztwo, aż po
-                  coaching i outplacement.
-                </p>
-              </div>
-
-              <div className='flex justify-center'>
-                <Link to='/Team'>
-                  <button className='bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-4 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '>
-                    Poznaj nasz zespół
-                  </button>
-                </Link>
-              </div>
+            <div className='flex justify-center'>
+              <Link to='/Team'>
+                <button className='bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-4 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '>
+                  Poznaj nasz zespół
+                </button>
+              </Link>
             </div>
           </div>
         </section>

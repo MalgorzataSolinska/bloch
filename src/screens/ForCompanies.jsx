@@ -49,14 +49,14 @@ const ForCompanies = () => {
         </section>
       
 
-        <section className='bg-white py-16 text-center text-[#212b9e] px-6'>
+        <section className='bg-[#f4f4f4] py-16 text-center text-[#212b9e] px-6'>
           <h2 className='text-3xl font-semibold mb-6'>Zostań naszym partnerem!</h2>
           <p className='text-lg max-w-2xl mx-auto mb-6'>
           Jeśli Twoja firma spełnia powyższe wymagania i szuka wykwalifikowanych specjalistów, skontaktuj się z nami!
 
           </p>
           <Link to='/Contact'>
-            <button className='bg-white border-2 border-[#212b9e] text-[#212b9e] py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#343b89] hover:text-white transition duration-300'>
+            <button className='bg-[#f4f4f4] border-2 border-[#212b9e] text-[#212b9e] py-3 px-6 rounded-full text-lg font-semibold hover:bg-[#343b89] hover:text-white transition duration-300'>
               Skontaktuj się z nami
             </button>
           </Link>
