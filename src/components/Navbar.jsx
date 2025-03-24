@@ -16,16 +16,16 @@ const Navbar = () => {
       </div>
       {/* Desktopowe menu */}
       <div className='hidden md:flex gap-6 text-s font-light mr-4'>
-        <Link to='/Team' className='hover:underline'>
+        <Link to='/team' className='hover:underline'>
           ZESPÓŁ
         </Link>
-        <Link to='/ForCompanies' className='hover:underline'>
+        <Link to='/for-companies' className='hover:underline'>
           DLA FIRM
         </Link>
-        <Link to='/JobOffers' className='hover:underline'>
+        <Link to='/job-offers' className='hover:underline'>
           PRACA W DANII
         </Link>
-        <Link to='/Contact' className='hover:underline'>
+        <Link to='/contact' className='hover:underline'>
           KONTAKT
         </Link>
       </div>
@@ -40,14 +40,14 @@ const Navbar = () => {
             ZESPÓŁ
           </Link>
           <Link
-            to='/ForCompanies'
+            to='/for-companies'
             className='block w-full text-center py-3 hover:bg-gray-100'
             onClick={() => setIsOpen(false)}
           >
             DLA FIRM
           </Link>
           <Link
-            to='/JobOffers'
+            to='/job-offers'
             className='block w-full text-center py-3 hover:bg-gray-100'
             onClick={() => setIsOpen(false)}
           >
