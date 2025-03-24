@@ -2,11 +2,11 @@ import Navbar from './components/Navbar';
 import Home from './screens/Home';
 import Footer from './components/Footer';
 import Team from './screens/Team';
-import Contact from './screens/Contact'
+import Contact from './screens/Contact';
 import JobOffers from './screens/JobOffers';
 import ForCompanies from './screens/ForCompanies';
 import SpecialistJob from './screens/job/SpecialistJob';
-import ForemanJob from './screens/job/ForemanJob'
+import ForemanJob from './screens/job/ForemanJob';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,12 +19,12 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/Team' element={<Team />} />
-            <Route path='/Contact' element={<Contact />} /> 
-            <Route path='/JobOffers' element={<JobOffers />} />
-            <Route path='/ForCompanies' element={<ForCompanies/> }/>
-            <Route path='/job/specialist' element={<SpecialistJob/>}/>
-            <Route path='/job/foreman' element={<ForemanJob/>}/>
+            <Route path='/team' element={<Team />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/job-offers' element={<JobOffers />} />
+            <Route path='/for-companies' element={<ForCompanies />} />
+            <Route path='/job/specialist' element={<SpecialistJob />} />
+            <Route path='/job/foreman' element={<ForemanJob />} />
           </Routes>
         </main>
 

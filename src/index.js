@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter } from 'react-router-dom'; 
+import { BrowserRouter } from 'react-router-dom'; 
 import ScrollToTop from './components/ScrollToTop';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <ScrollToTop />
     <App />
-  </HashRouter>
+  </BrowserRouter>
 );
 
 // Jeśli chcesz mierzyć wydajność swojej aplikacji, możesz przekazać funkcję do logowania wyników (np. reportWebVitals(console.log))
