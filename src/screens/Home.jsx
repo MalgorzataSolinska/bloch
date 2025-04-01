@@ -46,7 +46,7 @@ const Home = () => {
               <img
                 src='/images/hero.png'
                 alt='Zespół BLOCH'
-                className=' max-w-full h-auto shadow-md rounded-md'
+                className=' max-w-full h-auto bg-white shadow-md'
               />
             </div>
           </div>
