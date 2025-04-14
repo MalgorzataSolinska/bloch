@@ -13,7 +13,7 @@ const SpecialistJob = () => {
       <div className='pt-24'>
         <div>
           <button
-            onClick={() => navigate('/joboffers', { state: { scrollTo: 'oferty-pracy' } })}
+            onClick={() => navigate('/job-offers', { state: { scrollTo: 'oferty-pracy' } })}
             className='flex items-center text-[#2f4183] hover:text-[#4bb9e5] transition'
           >
             <ChevronLeft size={24} />

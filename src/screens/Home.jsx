@@ -33,7 +33,7 @@ const Home = () => {
                 </Link>
                 <div className='justify-center md:justify-start' >
                   <button
-                    onClick={() => navigate('/joboffers', { state: { scrollTo: 'oferty-pracy' } })}
+                    onClick={() => navigate('/job-offers', { state: { scrollTo: 'oferty-pracy' } })}
                     className=' bg-transparent border-2 border-[#315F81] text-[#315F81] py-3 px-6 rounded-full text-l font-semibold hover:bg-[#315F81] hover:text-white transition duration-300 w-fit '
                   >
                     Aktualne oferty pracy
