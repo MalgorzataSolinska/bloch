@@ -18,21 +18,8 @@ const Contact = () => {
                 Jesteśmy do dyspozycji od poniedziałku do piątku od 9:00 do 16:00
               </p>
 
-              <div className='mb-6'>
-                <h2 className='text-xl font-semibold text-gray-800 mb-2'>Kontakt w języku polskim – Iana</h2>
-                <div className='flex items-center justify-center md:justify-start mb-2'>
-                  <FaEnvelope className='mr-2 text-[#6A8CD3]' />
-                  <a href='mailto:iana@bloch.com.pl' className='hover:underline text-gray-700'>
-                    iana@bloch.com.pl
-                  </a>
-                </div>
-                <div className='flex items-center justify-center md:justify-start'>
-                  <FaPhone className='mr-2 text-[#6A8CD3]' />
-                  <a href='tel:+48502765640' className='hover:underline text-gray-700'>
-                    +48 502 765 640
-                  </a>
-                </div>
-              </div>
+              
+        
 
               <div>
                 <h2 className='text-xl font-semibold text-gray-800 mb-2'>Kontakt w języku angielskim – Jakob</h2>

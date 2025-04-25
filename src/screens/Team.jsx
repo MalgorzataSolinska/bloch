@@ -50,24 +50,7 @@ const Team = () => {
             </div>
           </div>
         </section>
-        <section className=' p-10 sm:p-6 md:p-12 text-justify'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 '>
-            <div>
-              <h2 className='text-3xl font-semibold text-[#3465CC] mb-4'>Iana</h2>
-              <p className='text-l lg:text-xl text-gray-700 mb-4'>
-                Ma blisko 15-letnie doświadczenie w pracy w startupach i międzynarodowych firmach, zarządzając zespołami
-                HR w branżach takich jak budownictwo, rozwój gruntów i rolnictwo.
-              </p>
-              <p className='text-l lg:text-xl text-gray-700 mb-6'>
-                Dzięki szerokiej wiedzy w zakresie obsługi klienta i zarządzania reklamacjami zapewni jasną komunikację
-                i przeprowadzi Cię przez proces rekrutacyjny.
-              </p>
-            </div>
-            <div className='flex justify-center'>
-              <img src='/images/Iana.png' alt='Iana Iakovenko' className='rounded-lg shadow-xl max-w-xs max-h-xs' />
-            </div>
-          </div>
-        </section>
+        
 
         <section className='bg-[#f4f4f4] p-10 text-center'>
           <h2 className='text-3xl font-semibold text-[#3465CC] mb-6'>Masz pytania? </h2>
